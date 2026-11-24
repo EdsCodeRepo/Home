@@ -5,27 +5,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Edward Morrison | Technical Portfolio</title>
+    <title>Edward Morrison | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Edward Morrison | Technical Portfolio</h1>
-        <p>Applied Technology Specialising in Advanced Manufacturing | Interest in Automation, Robotics and Artificial Intelligence. </p>
-    </header>
+    <section id="top">
+        <header>
+        <div class="top-container">
+            <h1>Welcome to my Technical Portfolio</h1>
+            <p>Applied Technology Specialising in Advanced Manufacturing | Futhering my studies in Automation, Robotics and Artificial Intelligence. </p>
+        </div>
+        </header>
+    </section>
+  
+
+    <!-- Navigation -->
+     <section id="navigation">
+        <nav>
+        <ul>
+            <li style="float:right"><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </section>
 
     <main>
-
+        
         <section id="about">
+
             <h2>About Me</h2>
-            <p>Welcome to my technical portfolio, this site is temporarily under construction.</p>
+            <div class="profile-pic-container">
+                <img src="imgs/smilePlants.png" alt="Profile Picture" class="profile-pic" style="width: 480px; height: 450px;">
+            </div>
+
+          
+            <p>
+                Proud Tasmanian, currently residing in the the north. Seeking employment in the field of Applied Technology to support my further studies.<br>
+                Like many of my peers who are passionate about technology, I started off developing my understanding by pulling apart surplus electronics and learning how they work.<br>
+                Similarly, many of my projects resemble the devices I have pulled apart; a mass of wires an odd PCB and some housing that never get put together properly.<br>
+                This site serves to document the projects that have resulted in significant learning opportunities in embedded systems and hardware design.<br>
+                These projects are in an ongoing state of development, and I will continue to update this site as I learn complete more project milestones.<br>
+                <h3>Education</h3>
+                <h4>University of Tasmania</h4>
+                - Graduating in December 2026 with a diploma in Applied Technology; Specialising in Advanced Manufacturing.<br>
+                - Commencing Bachelors of Information and Communication Technology (ICT) majoring in Internet of Things (IoT) in February 2027.<br>
+                <h3>Background</h3>
+                Longterm employment history in the hospitality industry, with a focus on customer service and team management.<br>
+                My experience has honed my communication skills and ability to work effectively in diverse teams.<br>
+                Prior to commencing studies, I ran a small scale landscaping buisness post Covid. <br> This provided me with practical experience in project management, problem solving  and working with clients to achieve their desired outcomes.<br>
+                During my time landscaping, I became quite interested in the automation of irrigation systems, which led me to pursue further studies in Applied Technology and eventually to my current focus on automation, robotics, and artificial intelligence.<br>
+                
+            </p>
+
+                <!-- static slideshow of images -->
+            <hr>
+            <div class="slideshow">
+                <img src="imgs/bigbluey.png" alt="Holding a big Blue tongue lizard">
+                <img src="imgs/blueSuitEdited.png" alt="blue navy suit and tie">
+                <img src="imgs/mouthylizard.png" alt="Baby Blue tongue showing off">
+                <img src="imgs/lightBlueSuit.png" alt="Blue suit and tie">
+            </div>
+            <hr>    
+            
         </section>
+
+        <!-- Projects Section 
+        
+        Projects forward has placeholder under h2 with a single p, I will add a photo of certain things referenced here
+
+        Under each h3, I need a table with project name, start date, status of project, . The table will be styled with CSS to match the overall design of the portfolio. Each project will also have a brief description and any relevant images or diagrams to illustrate the work done.
+        subsequent p1-4 will be used to provide additional details about each project, including challenges faced, solutions implemented, and any future plans for the project. This will give visitors a comprehensive understanding of my work and the skills I have developed through these projects.
+        A gallery of images will be included for each project, showcasing the different stages of development and the final product. This will provide a visual representation of my work and allow visitors to see the progress made on each project.
+        the gallery should appear under the the project table and be styled with CSS to match the overall design of the portfolio. Each image in the gallery will have a caption describing the stage of development or the specific aspect of the project being shown.
+
+
+        
+        -->
 
         <section id="projects">
             <h2>Projects</h2>
+            <p>
+                This site serves to document the projects that have resulted in significant learning opportunities in embedded systems and hardware design.<br>
+                These projects are in an ongoing state of development, and I will continue to update this site as I learn complete more project milestones.
+             
+            </p>
+            <h3>Project 1: 8-bit Computer - Repurposing RAM from a Sega Megadrive </h3>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Start Date</th>
+                    <th>Status</th>
+                    <th>Recent Update</th>
+                    <th>Next Milestone</th>
+                </tr>
+                <tr>
+                    <td>Ben Eater's 8-bit Computer build.</td>
+                    <td>30-05-2025</td>
+                    <td>Blocked - workspace limitations.</td>
+                    <td>Documentation in progress.</td>
+                    <td>Designing a mounting solution.</td>
+                </tr>
+            </table>
+            <div class="slideshow">
+                <img src="imgs/555timer.jpg" alt="555 Timer">
+                <img src="imgs/switch5555.jpg" alt="555 Timer">
+                <img src="imgs/wideShot.jpg" alt="555 Timer">
+                <img src="imgs/8bit1.jpg" alt="555 Timer">
+            </div>
+
+                <p1>
+                While in my first semester of my diploma, 
+                I was introduced to the fundamentals of digital electronics and microcontrollers. This reinforced my hobbiyist interest tinking with Arduinos and their like.
+                During semesters break, I found a youtube series starts off by exploring the 555 timer, 
+                an absolute classic integrated circuit among hobbists and engineers alike from my understanding.
+                The series uses the 555 timer as a clock source for a basic turing complete 8-bit computer, 
+                introducing hardware achitecture and assembly language programming along the way. The series is hosted by Ben Eater,
+                an educator and content creator. 
+                
+            </p1>
+            <ul>
+                <h3>Skills & intuition gained from this project include:</h3>
+                <li>Tweezing wires..</li>
+                <li>CPU architecture and foundamentals of assembly language.</li>
+                <li>Deeper appreciation for TTL and logic gates.</li>
+                <li>A love/hate relationship with datasheets.</li>
+            </ul>
+
+            <h3>Project 2: Irrigation Controller - Home Assistant Integration </h3>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Start Date</th>
+                    <th>Status</th>
+                    <th>Recent Update</th>
+                    <th>Next Milestone</th>
+                </tr>
+                <tr>
+                    <td>DC Solenoid Controller</td>
+                    <td>08-11-2025</td>
+                    <td>In development.</td>
+                    <td>Sucessful deployment test + newly arrived components.</td>
+                    <td>Housing design itteration.</td>
+                </tr>
+            </table>
+            <div class="slideshow">
+                <img src="imgs/IrrigationController1.jpg" alt="555 Timer">
+                <img src="imgs/box1.jpg" alt="555 Timer">
+                <img src="imgs/box2.jpg" alt="555 Timer">
+                <img src="imgs/box3.jpg" alt="555 Timer">
+            </div>
+            <p3>
+                During my time working as a landscaper, I gained experience in designing and implementing irrigation systems.
+                An aspect of friction surrounded the time and investment required for an electrician to install appropriate infrastructure.
+                Whilst alternatives such as battery powered DC solenoid controllers were avaliable, often their limitations made them unsuitable for the majority of applications.
+                This led me to explore the development of a custom solution controller, later attempting to integrate it with Home Assistant.
+
+            </p3>
+            <ul>
+            <h3> Skills & intuition gained from this project include:</h3>
+                <li>Design for manufacturability.</li>
+                <li>Understanding of interrupt handling.</li>
+                <li>Safe circuit design principles.</li>
+                <li>Ingress protection standards awareness.</li>
+            </ul>
+            <h3>Project 3: Standard Open Fixed Arm - SO101 6-DOF, 2 Cameras </h3>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Start Date</th>
+                    <th>Status</th>
+                    <th>Recent Update</th>
+                    <th>Next Milestone</th>
+                </tr>
+                <tr>
+                    <td>Standard Open Fixed Arm - SO101</td>
+                    <td>08-11-2025</td>
+                    <td>In development.</td>
+                    <td>Sucessful deployment test + newly arrived components.</td>
+                    <td>Housing design itteration.</td>
+                </tr>
+            </table>
+            <div class="slideshow">
+                <img src="imgs/printingShot.jpg" alt="printing arm components">
+                <img src="imgs/6servosPlusMotor.jpg" alt="6 STS servos and 2 controller boards.">
+                <img src="imgs/halfAssembledArm.jpg" alt="Mid Assembly of the arm.">
+                <img src="imgs/arm3.jpg" alt="Fully assembled arm with power supply and control board.">
+            </div>
+            <p4>
+                During my final semester of my diploma, I gained expereience working with a robotic arm via the University's Virtual learning Environment,
+                getting experience with a 6-DOF robotic arm.<br>
+                I was lucky to be taking an introductory unit in artifical intelligence at the same time, this allowed me to explore the intersection of robotics and AI.<br>
+                My first assignment was to prepare a report on an existing robotic project or system, I chose to explore the Standard Open Fixed Arm - SO101, another 6-DOF robotic arm <br>
+                I chose this project due to its open source nature, and the fact that it was designed to be a low cost alternative to other robotic arms on the market.<br>            
+                
+            </p4>
+            <ul>
+            <h3> Skills & intuition gained from this project include:</h3>
+                <li>Design for manufacturability.</li>
+                <li>Understanding of interrupt handling.</li>
+                <li>Safe circuit design principles.</li>
+                <li>Ingress protection standards awareness.</li>
+            </ul>
         </section>
 
         <section id="resume">
@@ -33,10 +218,27 @@
             <p1>Download my resume <a href="Resume2026Nov.pdf" download>here</a>.</p1>
         </section>
 
+        <section id="contact">
+            <h2>Contact</h2>
+            <p1>
+                You can reach me at <a href="mailto:edwardm5@utas.edu.au">edwardm5@utas.edu.au</a><br>
+            </p1>
+            <!-- I need a push notification if somebody wants my phone number, sends out automated email -->
+        </section>
     </main>
 
+        <!-- Navigation -->
+    <section id="navigation">
+        <nav>
+        <ul>
+            <li style="float:right"><a href="#top">Top</a></li>
+   
+        </ul>
+    </nav>
+    </section>
+
     <footer>
-        <p>© 2026 Ed</p>
+        <p>© 2026 Edward Morrison</p>
     </footer>
 
 </body>
